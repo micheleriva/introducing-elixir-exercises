@@ -8,7 +8,7 @@ defmodule Drop do
     2.23693692 * mps
   end
 
-  def mps_to_kpsmps do
+  def mps_to_kps(mps) do
     3.6 * mps
   end
 
